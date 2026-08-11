@@ -46,7 +46,7 @@ const ru = {
     rights: "Все права защищены.",
     contacts: "Контакты",
   },
-} as const;
+};
 
 export default ru;
 export type Dictionary = typeof ru;
