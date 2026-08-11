@@ -32,3 +32,21 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# secrets / local dev-only scripts (never commit)
+env-local-source.txt
+cleanup-test-application.js
+setup-storage.js
+run-cleanup-test-application.bat
+run-setup-storage.bat
+check-env.bat
+setup-phase-a.bat
+setup-phase-b.bat
+start-dev.bat
+sync-update.bat
+generate-sql.bat
+migration.sql
+*-log.txt
+setup-log*.txt
+dev-log.txt
+run-seed.bat
