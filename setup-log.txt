@@ -1,0 +1,84 @@
+===== PHASE A START ===== 
+Time: 10.08.2026 11:33:31,82 
+ 
+=== Checking winget === 
+C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps\winget.exe
+=== Installing Node.js LTS via winget === 
+Перед использованием источника "msstore" необходимо просмотреть следующие соглашения.
+Terms of Transaction: https://aka.ms/microsoft-store-terms-of-transaction
+Для правильной работы источника требуется отправить во внутреннюю службу двухбуквенный код текущего региона компьютера (например, "RU").
+
+Найдено Node.js (LTS) [OpenJS.NodeJS.LTS] Версия 24.19.0
+Лицензия на это приложение предоставлена вам владельцем.
+Корпорация Майкрософт не несет ответственность за сторонние пакеты и не предоставляет для них никакие лицензии.
+Скачивание https://nodejs.org/dist/v24.19.0/node-v24.19.0-x64.msi
+Хэш установщика успешно проверен
+Запуск установки пакета...
+Установщик запросит запуск от имени администратора. Ожидайте запроса.
+Успешно установлено
+Node install exit code: 0 
+ 
+=== node -v === 
+v24.19.0
+=== npm -v === 
+11.17.0
+ 
+=== npm install (this can take a few minutes) === 
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated @humanwhocodes/object-schema@2.0.3: Use @eslint/object-schema instead
+npm warn deprecated @humanwhocodes/config-array@0.13.0: Use @eslint/config-array instead
+npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm warn deprecated glob@10.3.10: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm warn deprecated eslint@8.57.1: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+
+> liga5x5-aktobe@0.1.0 postinstall
+> prisma generate
+
+Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (v5.22.0) to .\node_modules\@prisma\client in 176ms
+
+Start by importing your Prisma Client (See: https://pris.ly/d/importing-client)
+
+Tip: Want to turn off tips and other hints? https://pris.ly/tip-4-nohints
+
+┌─────────────────────────────────────────────────────────┐
+│  Update available 5.22.0 -> 7.9.1                       │
+│                                                         │
+│  This is a major update - please follow the guide at    │
+│  https://pris.ly/d/major-version-upgrade                │
+│                                                         │
+│  Run the following to update                            │
+│    npm i --save-dev prisma@latest                       │
+│    npm i @prisma/client@latest                          │
+└─────────────────────────────────────────────────────────┘
+
+added 420 packages, and audited 421 packages in 2m
+
+160 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (2 low, 6 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+npm warn allow-scripts 6 packages have install scripts not yet covered by allowScripts:
+npm warn allow-scripts   @prisma/client@5.22.0 (postinstall: node scripts/postinstall.js)
+npm warn allow-scripts   prisma@5.22.0 (preinstall: node scripts/preinstall-entry.js)
+npm warn allow-scripts   sharp@0.33.5 (install: node install/check)
+npm warn allow-scripts   unrs-resolver@1.12.2 (postinstall: node postinstall.js)
+npm warn allow-scripts   @prisma/engines@5.22.0 (postinstall: node scripts/postinstall.js)
+npm warn allow-scripts   esbuild@0.28.2 (postinstall: node install.js)
+npm warn allow-scripts
+npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.0.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2
+npm notice To update run: npm install -g npm@12.0.2
+npm notice
+npm install exit code: 0 
+ 
+===== PHASE A DONE ===== 

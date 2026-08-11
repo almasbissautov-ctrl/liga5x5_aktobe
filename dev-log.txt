@@ -1,0 +1,135 @@
+===== DEV SERVER START ===== 
+Time: 10.08.2026 20:23:35,02 
+
+> liga5x5-aktobe@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env.local, .env
+
+ ✓ Starting...
+ ✓ Ready in 6.8s
+ ○ Compiling /src/middleware ...
+ ✓ Compiled /src/middleware in 989ms (128 modules)
+ ○ Compiling /admin/teams ...
+ ✓ Compiled /admin/teams in 15.2s (662 modules)
+ GET /admin/teams 200 in 18732ms
+ GET /admin/teams 200 in 6093ms
+ ○ Compiling /icon.png ...
+ ✓ Compiled /icon.png in 8.2s (423 modules)
+ GET /icon.png?59a049f1f979ee4a 200 in 8560ms
+ ○ Compiling /admin/teams/[id] ...
+ ✓ Compiled /admin/teams/[id] in 985ms (694 modules)
+ POST /admin/teams/cmsnbg5yn0001uzogl8gqkrgq 303 in 8647ms
+ POST /admin/teams/cmsnbg5yn0001uzogl8gqkrgq 303 in 8328ms
+ POST /admin/teams/cmsnbg5yn0001uzogl8gqkrgq 303 in 8247ms
+ ○ Compiling /[locale] ...
+ ✓ Compiled /[locale] in 3.5s (763 modules)
+ GET /ru 200 in 5708ms
+ ○ Compiling /[locale]/teams ...
+ ✓ Compiled /[locale]/teams in 1167ms (756 modules)
+ GET /ru/teams 200 in 7821ms
+ ○ Compiling /admin/sponsors/new ...
+ ✓ Compiled /admin/sponsors/new in 1351ms (761 modules)
+ GET /admin/sponsors/new 200 in 1956ms
+ ○ Compiling /admin/sponsors ...
+ ✓ Compiled /admin/sponsors in 1589ms (763 modules)
+ POST /admin/sponsors/new 303 in 6432ms
+ GET /admin/sponsors 200 in 3898ms
+ ○ Compiling /admin/sponsors/[id] ...
+ ✓ Compiled /admin/sponsors/[id] in 1082ms (763 modules)
+ POST /admin/sponsors/cmsne6v6x0000p2pxg8wh1k7p 303 in 7261ms
+ GET /admin/sponsors 200 in 1828ms
+ ○ Compiling /icon.png ...
+ ✓ Compiled /icon.png in 1094ms (501 modules)
+ GET /icon.png?59a049f1f979ee4a 200 in 1470ms
+ POST /admin/sponsors/cmsne6v6x0000p2pxg8wh1k7p 303 in 6118ms
+ POST /admin/sponsors/cmsne6v6x0000p2pxg8wh1k7p 303 in 6066ms
+ ○ Compiling /[locale]/about ...
+ ✓ Compiled /[locale]/about in 2.4s (764 modules)
+ GET /ru/about 200 in 6415ms
+ GET /ru/about 200 in 2133ms
+ ○ Compiling /icon.png ...
+ ✓ Compiled /icon.png in 942ms (499 modules)
+ GET /icon.png?59a049f1f979ee4a 200 in 1655ms
+ ○ Compiling /admin/players/new ...
+ ✓ Compiled /admin/players/new in 2.3s (794 modules)
+ GET /admin/players/new 200 in 6517ms
+ ○ Compiling /admin/players ...
+ ✓ Compiled /admin/players in 831ms (762 modules)
+ POST /admin/players/new 303 in 10624ms
+ ○ Compiling /admin/players/[id] ...
+ ✓ Compiled /admin/players/[id] in 1053ms (762 modules)
+ POST /admin/players/cmsnegc390002p2pxm0hury16 303 in 7084ms
+ ○ Compiling /[locale]/players ...
+ ✓ Compiled /[locale]/players in 1627ms (762 modules)
+ GET /ru/players 200 in 6012ms
+ ○ Compiling /[locale]/join ...
+ ✓ Compiled /[locale]/join in 1710ms (812 modules)
+ POST /ru/join 200 in 2733ms
+ ○ Compiling /admin/applications ...
+ ✓ Compiled /admin/applications in 1647ms (820 modules)
+ GET /admin/applications 200 in 3914ms
+ POST /admin/applications 200 in 2655ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 1038ms (821 modules)
+ ○ Compiling /admin/matches ...
+ ✓ Compiled /admin/matches in 1076ms (815 modules)
+ ○ Compiling /admin/referees ...
+ ✓ Compiled /admin/referees in 967ms (816 modules)
+ ○ Compiling /admin/news ...
+ ✓ Compiled /admin/news in 814ms (710 modules)
+ ○ Compiling /admin/rules ...
+ ✓ Compiled /admin/rules in 1205ms (709 modules)
+ ○ Compiling /[locale] ...
+ ✓ Compiled /[locale] in 1163ms (478 modules)
+ GET /ru 200 in 1863ms
+ GET /ru 200 in 649ms
+ ○ Compiling /[locale]/matches ...
+ ✓ Compiled /[locale]/matches in 1224ms (777 modules)
+ ○ Compiling /[locale]/standings ...
+ ✓ Compiled /[locale]/standings in 1053ms (777 modules)
+ ○ Compiling /[locale]/stats ...
+ ✓ Compiled /[locale]/stats in 793ms (777 modules)
+ ○ Compiling /[locale]/videos ...
+ ✓ Compiled /[locale]/videos in 1075ms (776 modules)
+ ○ Compiling /[locale]/news ...
+ ✓ Compiled /[locale]/news in 693ms (774 modules)
+ ○ Compiling /[locale]/rules ...
+ ✓ Compiled /[locale]/rules in 1217ms (773 modules)
+ ○ Compiling /[locale]/archive ...
+ ✓ Compiled /[locale]/archive in 896ms (772 modules)
+ ○ Compiling /admin/players ...
+ ✓ Compiled /admin/players in 1000ms (478 modules)
+ GET /admin/players 200 in 6050ms
+ POST /admin/players 200 in 3876ms
+ ○ Compiling /admin/teams ...
+ ✓ Compiled /admin/teams in 879ms (482 modules)
+ POST /admin/teams 200 in 3797ms
+ POST /admin/sponsors 200 in 2647ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 895ms (471 modules)
+ [AuthRetryableFetchError: fetch failed] {
+  __isAuthError: true,
+  name: 'AuthRetryableFetchError',
+  status: 0,
+  code: undefined
+}
+ [AuthRetryableFetchError: fetch failed] {
+  __isAuthError: true,
+  name: 'AuthRetryableFetchError',
+  status: 0,
+  code: undefined
+}
+ GET /admin 200 in 8371ms
+ ○ Compiling /icon.png ...
+ ✓ Compiled /icon.png in 669ms (498 modules)
+ GET /icon.png?59a049f1f979ee4a 200 in 815ms
+ ✓ Compiled /admin/matches in 369ms (471 modules)
+ GET /admin/matches 200 in 1856ms
+ ✓ Compiled /[locale] in 467ms (474 modules)
+ GET /ru 200 in 734ms
+ GET /ru 200 in 66ms
+ GET /ru 200 in 97ms
+^C

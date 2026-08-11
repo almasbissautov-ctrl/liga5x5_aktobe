@@ -1,0 +1,44 @@
+===== PHASE B START ===== 
+Time: 10.08.2026 13:27:51,63 
+ 
+=== prisma migrate dev --name init === 
+Environment variables loaded from .env
+Prisma schema loaded from prisma\schema.prisma
+Datasource "db": PostgreSQL database "postgres", schema "public" at "aws-0-ap-southeast-1.pooler.supabase.com:5432"
+
+Error: P1001: Can't reach database server at `aws-0-ap-southeast-1.pooler.supabase.com:5432`
+
+Please make sure your database server is running at `aws-0-ap-southeast-1.pooler.supabase.com:5432`.
+migrate exit code: 1 
+ 
+=== npm run db:seed === 
+
+> liga5x5-aktobe@0.1.0 db:seed
+> prisma db seed
+
+Environment variables loaded from .env
+Running seed command `tsx prisma/seed.ts` ...
+PrismaClientKnownRequestError: 
+Invalid `prisma.season.findFirst()` invocation in
+C:\Users\Lenovo\Downloads\liga5x5-aktobe\liga5x5-aktobe\prisma\seed.ts:6:40
+
+  3 const prisma = new PrismaClient();
+  4 
+  5 async function main() {
+→ 6   const existing = await prisma.season.findFirst(
+The table `public.Season` does not exist in the current database.
+    at $n.handleRequestError (C:\Users\Lenovo\Downloads\liga5x5-aktobe\liga5x5-aktobe\node_modules\@prisma\client\runtime\library.js:121:7315)
+    at $n.handleAndLogRequestError (C:\Users\Lenovo\Downloads\liga5x5-aktobe\liga5x5-aktobe\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\Lenovo\Downloads\liga5x5-aktobe\liga5x5-aktobe\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at async l (C:\Users\Lenovo\Downloads\liga5x5-aktobe\liga5x5-aktobe\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at async main (C:\Users\Lenovo\Downloads\liga5x5-aktobe\liga5x5-aktobe\prisma\seed.ts:6:20) {
+  code: 'P2021',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Season', table: 'public.Season' }
+}
+
+An error occurred while running the seed command:
+Error: Command failed with exit code 1: tsx prisma/seed.ts
+seed exit code: 1 
+ 
+===== PHASE B DONE ===== 

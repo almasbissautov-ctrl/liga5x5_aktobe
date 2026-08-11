@@ -1,0 +1,4 @@
+===== SYNC START ===== 
+Time: 10.08.2026 13:35:33,12 
+tar exit code: 0 
+===== SYNC DONE ===== 

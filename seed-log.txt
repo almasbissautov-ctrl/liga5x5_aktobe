@@ -1,0 +1,23 @@
+===== SEED START ===== 
+Environment variables loaded from .env
+Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (v5.22.0) to .\node_modules\@prisma\client in 460ms
+
+Start by importing your Prisma Client (See: https://pris.ly/d/importing-client)
+
+Tip: Need your database queries to be 1000x faster? Accelerate offers you that and more: https://pris.ly/tip-2-accelerate
+
+generate exit code: 0 
+
+> liga5x5-aktobe@0.1.0 db:seed
+> prisma db seed
+
+Environment variables loaded from .env
+Running seed command `tsx prisma/seed.ts` ...
+Сезон 2026 уже существует, пропускаем.
+Регламент по умолчанию создан.
+
+The seed command has been executed.
+seed exit code: 0 
+===== SEED DONE ===== 
